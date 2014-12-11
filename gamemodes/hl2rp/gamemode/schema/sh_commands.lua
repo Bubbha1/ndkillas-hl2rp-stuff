@@ -104,6 +104,6 @@ nut.command.Register({
 		local target = nut.command.FindPlayer(client, table.concat(arguments, " "))
 		if (target) then
 			target:KillSilent()
-		end)
+		end
 	end
 }, "sslay")
