@@ -89,6 +89,7 @@ end
 function SCHEMA:PlayerSpawn(client)
 	if (client:IsCombine()) then
 		if (client:Team() == FACTION_CP) then
+			--if (client:IsCs
 			client:SetArmor(50)
 		else
 			client:SetArmor(100)
