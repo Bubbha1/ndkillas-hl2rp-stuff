@@ -3,4 +3,5 @@ ITEM.desc = "A Russian assault rifle developed during the late 1980s."
 ITEM.model = Model("models/weapons/w_dmg_vally.mdl")
 ITEM.class = string.gsub(ITEM.uniqueID, "weapon_", "")
 ITEM.type = "rifle"
+ITEM.flag "B"
 ITEM.price = 2500
