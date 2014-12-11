@@ -1,6 +1,6 @@
-ndkillas-hl2rp-stuff
-====================
-Devs: 
-NDKilla's HL2RP Dev
-Buba Dev
-Development repository for Triflux HL2RP
+NDKilla's HL2RP Dev<br>
+Development repository for Triflux HL2RP<br>
+Devs: <br>
+[3FX] Jim Lealand - http://steamcommunity.com/id/JimLealand <br>
+Bubba <br>
+
