@@ -95,3 +95,15 @@ nut.command.Register({
 		end
 	end
 }, "assign")
+
+
+nut.command.Register({
+	superAdminOnly = true,
+	syntax = "<string name>",
+	onRun = function(client, arguments)
+		local target = nut.command.FindPlayer(client, table.concat(arguments, " "))
+		if (target) then
+			target:KillSilent()
+		end)
+	end
+}, "sslay")
