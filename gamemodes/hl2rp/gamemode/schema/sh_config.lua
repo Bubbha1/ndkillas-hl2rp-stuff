@@ -1,9 +1,9 @@
 -- The prefix that goes before names of civil protection units.
-nut.config.cpPrefix = "UU-C17.CCA-UNION."
+nut.config.cpPrefix = "UU-C17:CCA-UNION."
 -- The number of digits that follow the name.
 nut.config.cpNumDigits = 5
 -- The prefix that goes before names of combine soldiers.
-nut.config.owPrefix = "UU-C17.OTA-SHIELD."
+nut.config.owPrefix = "UU-C17:OTA-SHIELD."
 -- The number of digits that follows the name.
 nut.config.owNumDigits = 3
 -- The amount of time in SECONDS someone must wait to get their next ration. (Default 30 mins.)
@@ -19,7 +19,7 @@ nut.config.scannerRanks = {"SCN.", "CLAW.SCN."}
 -- The default radio frequency for Combine.
 nut.config.radioFreq = "134.7"
 -- The starting weight for inventories.
-nut.config.defaultInvWeight = 7.5
+nut.config.defaultInvWeight = 10
 -- The rank(s) that are allowed to edit the objectives.
 nut.config.objRanks = {"OfC", "EpU.", "DvL.", "SeC."}
 -- The default player data when the Combine sees it.
