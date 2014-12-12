@@ -3,5 +3,5 @@ ITEM.desc = "A White shirt, Fit with a Universal Union Branding and a Tag with y
 ITEM.model = Model("models/humans/group02/male_01.mdl")
 ITEM.replacement = {"group(%d+)", "group02"}
 ITEM.price = 100
-ITEM.flag = "w"
+ITEM.flag = "C"
 ITEM.weight = 0
