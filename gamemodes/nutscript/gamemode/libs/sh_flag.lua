@@ -144,6 +144,21 @@ do
 end
 
 -- Default flags that all schemas use.
+
+nut.flag.Create("P", {
+	desc = "Allows access to the gravitygun.",
+	onReceived = function(client)
+		client:Give("weapon_physcannon")
+		client:SelectWeapon("weapon_physcannon")
+	end,
+	onTaken = function(client)
+		client:StripWeapon("weapon_physcannon")
+	end,
+	onSpawn = function(client)
+		client:Give("weapon_physcannon")
+	end
+})
+
 nut.flag.Create("p", {
 	desc = "Allows access to the physgun.",
 	onReceived = function(client)
