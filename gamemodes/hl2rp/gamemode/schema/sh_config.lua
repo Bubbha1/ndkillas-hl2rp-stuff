@@ -19,7 +19,7 @@ nut.config.scannerRanks = {"SCN.", "CLAW.SCN."}
 -- The default radio frequency for Combine.
 nut.config.radioFreq = "134.7"
 -- The starting weight for inventories.
-nut.config.defaultInvWeight = 7.5
+nut.config.defaultInvWeight = 10
 -- The rank(s) that are allowed to edit the objectives.
 nut.config.objRanks = {"OfC", "EpU.", "DvL.", "SeC."}
 -- The default player data when the Combine sees it.
