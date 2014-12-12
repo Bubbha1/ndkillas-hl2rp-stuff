@@ -205,7 +205,7 @@ if (CLIENT) then
 			local html = ""
 
 			for k, v in SortedPairs(nut.plugin.buffer) do
-				html = html.."<p><b>"..(v.name or k).."</b><br /><i>Author:</i> "..(v.author or "Anonymous").."<br /><i>Description:</i> "..v.desc or nut.lang.Get("no_desc").."</p>"
+				html = html.."<p><b>"..(v.name or k).."</b><br /><i>Author:</i> "..(v.author or "Anonymous").."<br /><i>Description:</i> "..(v.desc or nut.lang.Get("no_desc")).."</p>"
 			end
 
 			return html

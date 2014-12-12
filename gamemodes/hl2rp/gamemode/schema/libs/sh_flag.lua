@@ -11,7 +11,7 @@ nut.flag.Create("B", {
 	desc = "Allows one to buy 'large' black market goods."
 })
 nut.flag.Create("C", {
-	desc = "Allows one to buy Civil Corkers Union uniforms."
+	desc = "Allows one to buy Civil Workers Union uniforms."
 })
 nut.flag.Create("r", {
 	desc = "Allows one to buy 'light' rebel goods."
